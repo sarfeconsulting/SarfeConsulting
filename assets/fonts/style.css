@@ -9,17 +9,12 @@
    src: url('title2/font.ttf');
 }
 @font-face {
-   font-family: 'title3';
+   font-family: 'menu';
    font-display: swap;
-   src: url('title3/font.TTF');
+   src: url('menu/font.ttf');
 }
 @font-face {
    font-family: 'text';
    font-display: swap;
    src: url('text/font.ttf');
-}
-@font-face {
-   font-family: 'menu';
-   font-display: swap;
-   src: url('menu/font.ttf');
 }
