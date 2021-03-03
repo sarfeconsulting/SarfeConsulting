@@ -36,8 +36,7 @@
     "versionFirst": "5.1.4",
     "siteFonts": [],
     "uniqCompNum": 0,
-    "versionPublish": "5.1.4",
-    "imageResize": true
+    "versionPublish": "5.1.4"
   },
   "pages": {
     "index.html": {
