@@ -7499,7 +7499,6 @@ a {
 }
 
 
-
 /* CLIENTS BLOCK */
 .cid-swsBgsKFmU {
   padding-top: 2rem;
@@ -7777,7 +7776,10 @@ a {
 
 
 .pricing{
-  margin:40px 0px;
+  margin:25px 0px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  line-height: 1;
 }
 .pricing .table{
   border-top:1px solid #ddd;
@@ -7786,21 +7788,27 @@ a {
 .pricing .table th,
 .pricing .table {
   text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  background:#fff;
 }
 .pricing .table th,
 .pricing .table td {
   padding: 20px 10px;
-  border:1px solid #ddd;
+  border:2px solid #ddd;
   border: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 .pricing .table th {
   width: 25%;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
   border-bottom: 0;
   background:#2F313A;
-  color: #EBEDF3;
-  text-transform: uppercase;
+  color: #ffffff;
 }
 .pricing .table th.highlight{
   border-top: 4px solid #4caf50 !important;
@@ -7812,32 +7820,36 @@ a {
   padding-left: 20px;
   text-align: left;
   padding-top:35px;
-  background: #5F97FB;
+  background: #ffffff;
+  color: #1b1b1d;
 }
 .pricing tr td .ptable-title {
-  font-size: 12px;
-  font-weight:400;
-  color: #fff;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #1b1b1d;
+  
 }
 .pricing tr td .ptable-title i {
   width: 23px;
   line-height: 25px;
   text-align: right;
   margin-right: 5px;
+  
 }
 .pricing .ptable-star {
   position: relative;
   display: block;
   text-align: center;
 }
-.pricing .ptable-star.red{
-  color: #e91e63;
+.pricing .ptable-star.gray{
+  color: #cecece;
 }
-.pricing .ptable-star.green{
-  color: #4caf50;
+.pricing .ptable-star.light-blue{
+  color: #bdeaf5;
 }
-.pricing .ptable-star.lblue{
-  color: #03a9f4;
+.pricing .ptable-star.blue{
+  color: #4719eb;
 }
 .pricing .ptable-star i {
   width: 8px;
@@ -7848,21 +7860,20 @@ a {
 }
 .pricing tr td {
   font-size: 16px;
-  line-height:32px;
-  text-transform:uppercase;
+  line-height:25px;
 }
-.pricing tr td.bg-red{
-  background: #e91e63;
+.pricing tr td.bg-gray{
+  background: #cecece;
 }
-.pricing tr td.bg-green{
-  background: #4caf50;
+.pricing tr td.bg-light-blue{
+  background: #bdeaf5;
 }
-.pricing tr td.bg-lblue{
-  background: #03a9f4;
+.pricing tr td.bg-blue{
+  background: #4719eb;
 }
-.pricing tr td.bg-red a,
-.pricing tr td.bg-green a,
-.pricing tr td.bg-lblue a{
+.pricing tr td.bg-gray a,
+.pricing tr td.bg-light-blue a,
+.pricing tr td.bg-blue a{
   color: #fff;
 }
 .pricing tr td i {
@@ -7870,14 +7881,14 @@ a {
   margin-bottom: 12px;
   font-size: 30px;
 }
-.pricing tr td i.red{
-  color: #e91e63;
+.pricing tr td i.gray{
+  color: #cecece;
 }
-.pricing tr td i.green{
-  color: #4caf50;
+.pricing tr td i.light-blue{
+  color: #bdeaf5;
 }
-.pricing tr td i.lblue{
-  color: #03a9f4;
+.pricing tr td i.blue{
+  color: #4719eb;
 }
 .pricing tr td:first-child i{
   display:inline;
